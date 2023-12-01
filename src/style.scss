@@ -359,6 +359,7 @@ body {
       border-radius: 40px;
       position: absolute;
       height: 100%;
+      width: 90%;
     }
 
     h1 {
@@ -409,12 +410,31 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
-  /* Styles for extra-large devices go here */
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Styles for large devices go here */
+  .header {
+    .head-wrap {
+      height: 60%;
+      width: 100%;
+
+      .header-Img {
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -47%);
+        height: 100%;
+        width: 95%;
+      }
+
+      h1 {
+        top: 70%;
+        right: 5%;
+      }
+
+      .buttons-Wrap {
+        top: 100%;
+        right: 10%;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
