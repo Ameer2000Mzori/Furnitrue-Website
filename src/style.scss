@@ -146,4 +146,64 @@ body {
       }
     }
   }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .upper-Wrap {
+      gap: 45px;
+
+      .brand-Wrap {
+        font-size: 2rem;
+      }
+
+      .search-Wrap {
+        height: 30px;
+        width: 300px;
+
+        input {
+          padding-left: 45px;
+          height: 30px;
+          width: 300px;
+        }
+
+        i {
+          font-size: 15px;
+          position: absolute;
+          left: 5%;
+          color: $mainColor;
+        }
+      }
+
+      .info-Wrap {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        cursor: pointer;
+
+        i {
+          font-size: 22px;
+          color: $mainColor;
+        }
+      }
+    }
+
+    .under-Wrap {
+      justify-content: space-evenly;
+      height: 100%;
+      width: 100%;
+
+      ul {
+        justify-content: space-evenly;
+        width: 90%;
+
+        li {
+          justify-content: space-evenly;
+          height: 50px;
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
 }
