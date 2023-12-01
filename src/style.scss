@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
 
+$fontOne: "Kenia", sans-serif;
+$fontTwo: "Mukta", sans-serif;
+
+$mainColor: #073e72;
+
 body {
   // font-family: "Kenia", cursive;
   font-family: "Mukta", sans-serif;
@@ -86,6 +91,48 @@ body {
       justify-content: center;
       gap: 15px;
       cursor: pointer;
+    }
+  }
+
+  .under-Wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 50%;
+
+    ul {
+      display: flex;
+      list-style: none;
+      font-size: 1rem;
+
+      li {
+        display: flex;
+        gap: 5px;
+        height: 25px;
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        color: $mainColor;
+
+        a {
+          text-decoration: none;
+          font-size: 12px;
+          color: $mainColor;
+          font-family: var($fontTwo);
+        }
+      }
+
+      li:nth-child(1) {
+        border: none;
+      }
     }
   }
 }

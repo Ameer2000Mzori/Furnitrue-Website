@@ -87,3 +87,45 @@ body {
   gap: 15px;
   cursor: pointer;
 }
+
+.navbar .under-Wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 50%;
+}
+
+.navbar .under-Wrap ul {
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.navbar .under-Wrap ul li {
+  display: flex;
+  gap: 5px;
+  height: 25px;
+  width: 100%;
+  flex-direction: column;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  color: #073e72;
+}
+
+.navbar .under-Wrap ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #073e72;
+  font-family: var("Mukta", sans-serif);
+}
+
+.navbar .under-Wrap ul li:nth-child(1) {
+  border: none;
+}
