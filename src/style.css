@@ -140,6 +140,67 @@ body {
   border: none;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar .upper-Wrap {
+    gap: 45px;
+  }
+
+  .navbar .upper-Wrap .brand-Wrap {
+    font-size: 2.5rem;
+  }
+
+  .navbar .upper-Wrap .search-Wrap {
+    height: 45px;
+    width: 450px;
+  }
+
+  .navbar .upper-Wrap .search-Wrap input {
+    padding-left: 45px;
+    height: 45px;
+    width: 450px;
+  }
+
+  .navbar .upper-Wrap .search-Wrap i {
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    color: #073e72;
+  }
+
+  .navbar .upper-Wrap .info-Wrap {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+
+  .navbar .upper-Wrap .info-Wrap i {
+    font-size: 22px;
+    color: #073e72;
+  }
+
+  .navbar .under-Wrap {
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  }
+
+  .navbar .under-Wrap ul {
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 0;
+  }
+
+  .navbar .under-Wrap ul li {
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar .upper-Wrap {
     gap: 45px;

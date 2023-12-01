@@ -147,6 +147,67 @@ body {
     }
   }
 
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .upper-Wrap {
+      gap: 45px;
+
+      .brand-Wrap {
+        font-size: 2.5rem;
+      }
+
+      .search-Wrap {
+        height: 45px;
+        width: 450px;
+
+        input {
+          padding-left: 45px;
+          height: 45px;
+          width: 450px;
+        }
+
+        i {
+          font-size: 15px;
+          position: absolute;
+          left: 5%;
+          color: $mainColor;
+        }
+      }
+
+      .info-Wrap {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        cursor: pointer;
+
+        i {
+          font-size: 22px;
+          color: $mainColor;
+        }
+      }
+    }
+
+    .under-Wrap {
+      justify-content: space-evenly;
+      height: 100%;
+      width: 100%;
+
+      ul {
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 0;
+
+        li {
+          justify-content: space-evenly;
+          height: 50px;
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+
   @media (min-width: 768px) and (max-width: 991px) {
     .upper-Wrap {
       gap: 45px;
