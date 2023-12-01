@@ -1,6 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+
 body {
   // font-family: "Kenia", cursive;
   font-family: "Mukta", sans-serif;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  background-color: #a3a0a0;
   margin: 0;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+  width: 98%;
+  height: 9rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  .upper-Wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 50%;
+
+    .brand-Wrap {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      // font-family: "Kenia", sans-serif;
+      font-size: 3rem;
+      letter-spacing: 0.3rem;
+      font-family: "Kenia", cursive;
+      color: #073e72;
+
+      i {
+        color: #f8872b;
+      }
+    }
+
+    .search-Wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      height: 35px;
+      width: 300px;
+      padding: 0;
+
+      input {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        padding-left: 35px;
+        text-align: start;
+        align-items: start;
+        justify-content: space-evenly;
+        height: 35px;
+        font-size: 15px;
+        width: 300px;
+        background-color: #eaeff3;
+        border: none;
+        border-radius: 5px;
+      }
+
+      i {
+        font-size: 15px;
+        position: absolute;
+        left: 5%;
+      }
+    }
+
+    .info-Wrap {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      cursor: pointer;
+    }
+  }
 }
