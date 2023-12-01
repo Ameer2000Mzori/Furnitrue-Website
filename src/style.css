@@ -323,3 +323,78 @@ body {
     padding: 0.3rem;
   }
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  padding-top: 30vh;
+  width: 100%;
+  height: 65vh;
+  z-index: -1;
+}
+
+.header .head-wrap {
+  position: relative;
+  background-color: #0b3954;
+  border-radius: 40px;
+  width: 80%;
+  height: 100%;
+}
+
+.header .head-wrap .header-Img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -47%);
+  border-radius: 40px;
+  position: absolute;
+  height: 100%;
+}
+
+.header .head-wrap h1 {
+  text-align: end;
+  font-size: 4rem;
+  color: white;
+  font-family: "Mukta", sans-serif;
+  top: 70%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  position: absolute;
+  height: 100%;
+}
+
+.header .head-wrap .buttons-Wrap {
+  text-align: end;
+  font-size: 4rem;
+  color: white;
+  font-family: "Mukta", sans-serif;
+  top: 90%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  position: absolute;
+  height: 100%;
+}
+
+.header .head-wrap .buttons-Wrap button {
+  padding: 11px 35px;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.header .head-wrap .buttons-Wrap .go-To-Shop-Btn {
+  color: white;
+  font-size: 16px;
+  background-color: #f8872b;
+}
+
+.header .head-wrap .buttons-Wrap .explore-Btn {
+  color: #f8872b;
+  font-size: 16px;
+  background-color: white;
+}

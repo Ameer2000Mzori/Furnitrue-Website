@@ -4,7 +4,9 @@ $fontOne: "Kenia", sans-serif;
 $fontTwo: "Mukta", sans-serif;
 
 $backGroundColor: #eaeff3;
+$headerBackGroundColor: #0b3954;
 $mainColor: #073e72;
+$buttonBackGroundColor: #f8872b;
 
 body {
   // font-family: "Kenia", cursive;
@@ -327,6 +329,81 @@ body {
           width: 100%;
           padding: 0.3rem;
         }
+      }
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  padding-top: 30vh;
+  width: 100%;
+  height: 65vh;
+  z-index: -1;
+
+  .head-wrap {
+    position: relative;
+    background-color: $headerBackGroundColor;
+    border-radius: 40px;
+    width: 80%;
+    height: 100%;
+
+    .header-Img {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -47%);
+      border-radius: 40px;
+      position: absolute;
+      height: 100%;
+    }
+
+    h1 {
+      text-align: end;
+      font-size: 4rem;
+      color: white;
+      font-family: $fontTwo;
+      top: 70%;
+      right: 5%;
+      transform: translate(-50%, -50%);
+      border-radius: 40px;
+      position: absolute;
+      height: 100%;
+    }
+
+    .buttons-Wrap {
+      text-align: end;
+      font-size: 4rem;
+      color: white;
+      font-family: $fontTwo;
+      top: 90%;
+      right: 10%;
+      transform: translate(-50%, -50%);
+      border-radius: 40px;
+      position: absolute;
+      height: 100%;
+
+      button {
+        padding: 11px 35px;
+        background-color: transparent;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+
+      .go-To-Shop-Btn {
+        color: white;
+        font-size: 16px;
+        background-color: $buttonBackGroundColor;
+      }
+
+      .explore-Btn {
+        color: $buttonBackGroundColor;
+        font-size: 16px;
+        background-color: white;
       }
     }
   }
