@@ -445,5 +445,46 @@ body {
 }
 
 @media (max-width: 767px) {
-  //
+  .header {
+    position: relative;
+
+    .head-wrap {
+      position: relative;
+      height: 50%;
+      width: 100%;
+
+      .header-Img {
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -47%);
+        height: 65%;
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1rem;
+        top: 75%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        transform: translate(-50%, -47%);
+      }
+
+      .buttons-Wrap {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        top: 105%;
+        left: 50%;
+        width: 50%;
+        height: 100px;
+        transform: translate(-50%, -47%);
+        gap: 15px;
+
+        .go-To-Shop-Btn {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
