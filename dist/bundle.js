@@ -7,26 +7,8 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/script.js":
-/*!***********************!*\
-  !*** ./src/script.js ***!
-  \***********************/
-/***/ (() => {
-
-eval("console.log(\"hallo world\");\n\n//# sourceURL=webpack://scroll-animation/./src/script.js?");
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
+/******/ 	"use strict";
 /******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/script.js"]();
 /******/ 	
 /******/ })()
 ;
