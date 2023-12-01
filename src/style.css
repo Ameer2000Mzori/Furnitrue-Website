@@ -190,6 +190,7 @@ body {
   .navbar .under-Wrap ul {
     justify-content: space-evenly;
     width: 90%;
+    padding: 0;
   }
 
   .navbar .under-Wrap ul li {
@@ -197,5 +198,67 @@ body {
     height: 50px;
     width: 100%;
     padding: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .upper-Wrap {
+    gap: 15px;
+  }
+
+  .navbar .upper-Wrap .brand-Wrap {
+    font-size: 13px;
+  }
+
+  .navbar .upper-Wrap .search-Wrap {
+    height: 30px;
+    width: 150px;
+  }
+
+  .navbar .upper-Wrap .search-Wrap input {
+    padding-left: 17px;
+    height: 30px;
+    width: 150px;
+    font-size: 11px;
+  }
+
+  .navbar .upper-Wrap .search-Wrap i {
+    font-size: 11px;
+    position: absolute;
+    left: 1%;
+    color: #073e72;
+  }
+
+  .navbar .upper-Wrap .info-Wrap {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .navbar .upper-Wrap .info-Wrap i {
+    font-size: 11px;
+    color: #073e72;
+  }
+
+  .navbar .under-Wrap {
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  }
+
+  .navbar .under-Wrap ul {
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 0;
+  }
+
+  .navbar .under-Wrap ul li {
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    padding: 0.3rem;
   }
 }

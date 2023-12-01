@@ -196,12 +196,75 @@ body {
       ul {
         justify-content: space-evenly;
         width: 90%;
+        padding: 0;
 
         li {
           justify-content: space-evenly;
           height: 50px;
           width: 100%;
           padding: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .upper-Wrap {
+      gap: 15px;
+
+      .brand-Wrap {
+        font-size: 13px;
+      }
+
+      .search-Wrap {
+        height: 30px;
+        width: 150px;
+
+        input {
+          padding-left: 17px;
+          height: 30px;
+          width: 150px;
+          font-size: 11px;
+        }
+
+        i {
+          font-size: 11px;
+          position: absolute;
+          left: 1%;
+          color: $mainColor;
+        }
+      }
+
+      .info-Wrap {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+
+        i {
+          font-size: 11px;
+          color: $mainColor;
+        }
+      }
+    }
+
+    .under-Wrap {
+      justify-content: space-evenly;
+      height: 100%;
+      width: 100%;
+
+      ul {
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 0;
+
+        li {
+          justify-content: space-evenly;
+          height: 50px;
+          width: 100%;
+          padding: 0.3rem;
         }
       }
     }
