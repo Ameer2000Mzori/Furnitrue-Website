@@ -81,6 +81,7 @@ body {
         font-size: 15px;
         position: absolute;
         left: 5%;
+        color: $mainColor;
       }
     }
 
@@ -91,6 +92,10 @@ body {
       justify-content: center;
       gap: 15px;
       cursor: pointer;
+
+      i {
+        color: $mainColor;
+      }
     }
   }
 

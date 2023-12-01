@@ -77,6 +77,7 @@ body {
   font-size: 15px;
   position: absolute;
   left: 5%;
+  color: #073e72;
 }
 
 .navbar .upper-Wrap .info-Wrap {
@@ -86,6 +87,10 @@ body {
   justify-content: center;
   gap: 15px;
   cursor: pointer;
+}
+
+.navbar .upper-Wrap .info-Wrap i {
+  color: #073e72;
 }
 
 .navbar .under-Wrap {
