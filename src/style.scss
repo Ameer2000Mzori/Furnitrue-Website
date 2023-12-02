@@ -619,3 +619,32 @@ body {
     }
   }
 }
+
+.pricing-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  width: 75%;
+
+  .pricing-Title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+    width: 100%;
+
+    .button-Title-Wrap {
+      text-align: start;
+      align-items: center;
+
+      h3 {
+        color: $headerBackGroundColor;
+        font-size: 4rem;
+      }
+    }
+  }
+}
