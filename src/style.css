@@ -632,3 +632,15 @@ body {
   color: #0b3954;
   font-size: 4rem;
 }
+
+.pricing-Wrap .pricing-Title .button-Title-Wrap button {
+  padding: 8px 25px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #f8872b;
+  border-color: #f8872b;
+  cursor: pointer;
+}
