@@ -582,7 +582,7 @@ body {
     }
 
     .product-Card:hover {
-      filter: drop-shadow(0 0 0.75rem rgb(124, 123, 123));
+      box-shadow: 0 0 25px #888;
       background-color: $backGroundColor;
     }
   }
