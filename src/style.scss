@@ -659,4 +659,44 @@ body {
       }
     }
   }
+
+  .pricing-Cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+
+    .pricing-Card-Wrap {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      width: 230px;
+      height: 400px;
+      padding: 50px;
+      margin: 10px;
+      background-color: #f7f7f7;
+      border-radius: 2rem;
+
+      .price-Title-Stars {
+        h3 {
+          font-weight: 200;
+          font-size: 17px;
+        }
+
+        i {
+          color: gold;
+        }
+
+        h2 {
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
