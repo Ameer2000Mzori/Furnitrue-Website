@@ -2,9 +2,10 @@
 
 body {
   font-family: "Mukta", sans-serif;
-  display: flex;
-  justify-content: center;
+  align-items: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   background-color: #eaeff3;
   margin: 0;
@@ -16,6 +17,7 @@ body {
   background-color: #fff;
   width: 99%;
   height: 15rem;
+  margin: 0;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -337,6 +339,7 @@ body {
 }
 
 .header .head-wrap {
+  z-index: -1;
   position: relative;
   background-color: #0b3954;
   border-radius: 40px;
@@ -345,6 +348,7 @@ body {
 }
 
 .header .head-wrap .header-Img {
+  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -47%);
@@ -355,6 +359,7 @@ body {
 }
 
 .header .head-wrap h1 {
+  z-index: -1;
   text-align: end;
   font-size: 4rem;
   color: white;
@@ -368,6 +373,7 @@ body {
 }
 
 .header .head-wrap .buttons-Wrap {
+  z-index: -1;
   text-align: end;
   font-size: 4rem;
   color: white;
