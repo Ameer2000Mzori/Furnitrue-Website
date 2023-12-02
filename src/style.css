@@ -1265,3 +1265,69 @@ body {
   color: #eaeff3;
   cursor: pointer;
 }
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+  .contact .contact-Wrap {
+    width: 100%;
+  }
+
+  .contact .contact-Wrap .discount-Wrap .text-Discount {
+    font-size: 13px;
+  }
+
+  .contact .contact-Wrap .discount-Wrap .colord-Text-Discount {
+    font-size: 13px;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap {
+    flex-direction: column;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap .email-Input {
+    font-size: 11px;
+    width: 180px;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap button {
+    padding: 5px 15px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact .contact-Wrap .discount-Wrap .text-Discount {
+    font-size: 1.1rem;
+  }
+
+  .contact .contact-Wrap .discount-Wrap .colord-Text-Discount {
+    font-size: 1.2rem;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap {
+    flex-direction: column;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap .email-Input {
+    width: 240px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1499px) {
+  .contact .contact-Wrap .discount-Wrap .text-Discount {
+    font-size: 1.1rem;
+  }
+
+  .contact .contact-Wrap .discount-Wrap .colord-Text-Discount {
+    font-size: 1.2rem;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap {
+    flex-direction: column;
+  }
+
+  .contact .contact-Wrap .email-Wrap .button-Email-Wrap .email-Input {
+    width: 300px;
+  }
+}
