@@ -519,28 +519,59 @@ body {
 .products-Wrap {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
   height: 100vh;
-  margin-top: 10rem;
+  width: 50%;
+  margin-top: 25rem;
+  padding: 15rem;
 
-  p {
-    color: $headerBackGroundColor;
-    padding: 0;
-    margin: 0;
+  .products-Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+
+    h3 {
+      font-weight: 600;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      color: $headerBackGroundColor;
+      padding: 0;
+    }
+
+    h4 {
+      padding: 0;
+      margin: 0;
+      font-size: 4rem;
+      color: $buttonBackGroundColor;
+    }
+
+    .products-Text {
+      font-size: 5rem;
+      padding: 0;
+      margin: 0;
+      color: $headerBackGroundColor;
+    }
   }
 
-  h4 {
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    color: $buttonBackGroundColor;
-  }
+  .product-Cards-Wrap {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 100%;
 
-  .products-Text {
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    color: $headerBackGroundColor;
+    .product-Card {
+      font-size: 25px;
+      background-color: #f7f7f7;
+      padding: 1rem;
+      height: 175px;
+      width: 160px;
+      border-radius: 15px;
+    }
   }
 }
