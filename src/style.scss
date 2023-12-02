@@ -351,10 +351,8 @@ body {
   padding-top: 30vh;
   width: 100%;
   height: 65vh;
-  z-index: -1;
 
   .head-wrap {
-    z-index: -1;
     position: relative;
     background-color: $headerBackGroundColor;
     border-radius: 40px;
@@ -362,7 +360,6 @@ body {
     height: 100%;
 
     .header-Img {
-      z-index: -1;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -47%);
@@ -373,7 +370,6 @@ body {
     }
 
     h1 {
-      z-index: -1;
       text-align: end;
       font-size: 4rem;
       color: white;
@@ -387,7 +383,6 @@ body {
     }
 
     .buttons-Wrap {
-      z-index: -1;
       text-align: end;
       font-size: 4rem;
       color: white;
@@ -417,6 +412,11 @@ body {
         color: $buttonBackGroundColor;
         font-size: 16px;
         background-color: white;
+      }
+
+      .go-To-Shop-Btn,
+      .explore-Btn:hover {
+        cursor: pointer;
       }
     }
   }
