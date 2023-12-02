@@ -647,11 +647,6 @@ body {
   }
 }
 
-/* Extra-large devices (large desktops, TVs) */
-@media (min-width: 1200px) {
-  /* Styles for extra-large devices go here */
-}
-
 .pricing-Wrap {
   display: flex;
   flex-direction: column;
@@ -661,12 +656,7 @@ body {
   height: 1500px;
   width: 75%;
   margin-top: 1rem;
-
-  /* Small devices (phones) */
-
-  /* Medium devices (tablets) */
-
-  /* Large devices (laptops/desktops) */
+  margin-bottom: 5rem;
 }
 
 .pricing-Wrap .pricing-Title {
@@ -793,7 +783,12 @@ body {
   cursor: pointer;
 }
 
+/* Small devices (phones) */
 @media (max-width: 767px) {
+  .pricing-Wrap {
+    height: 3500px;
+  }
+
   .pricing-Wrap .pricing-Title {
     display: flex;
     text-align: center;
@@ -830,7 +825,12 @@ body {
   }
 }
 
+/* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .pricing-Wrap {
+    height: 3500px;
+  }
+
   .pricing-Wrap .pricing-Title {
     display: flex;
     text-align: center;
@@ -867,7 +867,12 @@ body {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1499px) {
+  .pricing-Wrap {
+    height: 2000px;
+  }
+
   .pricing-Wrap .pricing-Title {
     display: flex;
     text-align: center;
@@ -902,4 +907,8 @@ body {
     border-color: #f8872b;
     cursor: pointer;
   }
+}
+
+.blog {
+  height: 100vh;
 }
