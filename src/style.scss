@@ -520,7 +520,7 @@ body {
 .products-Wrap {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 75vh;
   width: 75%;
   margin-top: 25rem;
 
@@ -627,8 +627,9 @@ body {
   text-align: center;
   align-items: center;
   justify-content: start;
-  height: 100vh;
+  height: 1500px;
   width: 75%;
+  margin-top: 1rem;
 
   .pricing-Title {
     display: flex;
@@ -742,5 +743,17 @@ body {
         opacity: 1;
       }
     }
+  }
+
+  .shop-Btn {
+    padding: 10px 50px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    font-size: 1rem;
+    color: $buttonBackGroundColor;
+    border-color: $buttonBackGroundColor;
+    cursor: pointer;
   }
 }
