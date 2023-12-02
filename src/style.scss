@@ -27,6 +27,7 @@ body {
   width: 99%;
   height: 15rem;
   margin: 0;
+  top: 0;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -512,5 +513,34 @@ body {
         }
       }
     }
+  }
+}
+
+.products-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 10rem;
+
+  p {
+    color: $headerBackGroundColor;
+    padding: 0;
+    margin: 0;
+  }
+
+  h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: $buttonBackGroundColor;
+  }
+
+  .products-Text {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    color: $headerBackGroundColor;
   }
 }
