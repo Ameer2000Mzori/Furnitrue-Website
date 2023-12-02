@@ -576,32 +576,31 @@ body {
 }
 
 @media (max-width: 767px) {
-  .products-Wrap .product-Cards-Wrap {
-    text-align: center;
+  .products-Wrap {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: auto; /* Set height to auto or remove it for content-based height */
+    margin-bottom: 1rem;
   }
 
   .products-Wrap .products-Title h3 {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    color: #0b3954;
-    padding: 0;
+    font-size: 2rem;
   }
 
   .products-Wrap .products-Title h4 {
-    padding: 0;
-    margin: 0;
-    font-size: 2.5rem;
-    color: #f8872b;
+    font-size: 3rem;
+    color: #f8872b; /* Assuming $buttonBackGroundColor is defined */
   }
 
   .products-Wrap .products-Title .products-Text {
-    font-size: 3.5rem;
-    padding: 0;
-    margin: 0;
-    color: #0b3954;
+    font-size: 3rem;
+  }
+
+  .products-Wrap .product-Cards-Wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -614,6 +613,12 @@ body {
   height: 1500px;
   width: 75%;
   margin-top: 1rem;
+
+  /* Small devices (phones) */
+
+  /* Medium devices (tablets) */
+
+  /* Large devices (laptops/desktops) */
 }
 
 .pricing-Wrap .pricing-Title {
@@ -738,4 +743,115 @@ body {
   color: #f8872b;
   border-color: #f8872b;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .pricing-Wrap .pricing-Title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+  }
+
+  .pricing-Wrap .pricing-Title img {
+    height: 40%;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap {
+    text-align: start;
+    align-items: center;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap h3 {
+    color: #0b3954;
+    font-size: 1rem;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap button {
+    padding: 8px 25px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #f8872b;
+    border-color: #f8872b;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pricing-Wrap .pricing-Title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+  }
+
+  .pricing-Wrap .pricing-Title img {
+    height: 50%;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap {
+    text-align: start;
+    align-items: center;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap h3 {
+    color: #0b3954;
+    font-size: 2rem;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap button {
+    padding: 8px 25px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #f8872b;
+    border-color: #f8872b;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pricing-Wrap .pricing-Title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+  }
+
+  .pricing-Wrap .pricing-Title img {
+    height: 60%;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap {
+    text-align: start;
+    align-items: center;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap h3 {
+    color: #0b3954;
+    font-size: 3rem;
+  }
+
+  .pricing-Wrap .pricing-Title .button-Title-Wrap button {
+    padding: 8px 25px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #f8872b;
+    border-color: #f8872b;
+    cursor: pointer;
+  }
 }

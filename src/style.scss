@@ -587,36 +587,35 @@ body {
       background-color: $backGroundColor;
     }
   }
+}
 
-  @media (max-width: 767px) {
-    .product-Cards-Wrap {
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
+@media (max-width: 767px) {
+  .products-Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Set height to auto or remove it for content-based height */
+    margin-bottom: 1rem;
 
     .products-Title {
       h3 {
-        font-weight: 600;
-        font-size: 1rem;
-        margin-bottom: 2rem;
-        color: $headerBackGroundColor;
-        padding: 0;
+        font-size: 2rem;
       }
 
       h4 {
-        padding: 0;
-        margin: 0;
-        font-size: 2.5rem;
-        color: $buttonBackGroundColor;
+        font-size: 3rem;
+        color: $buttonBackGroundColor; /* Assuming $buttonBackGroundColor is defined */
       }
 
       .products-Text {
-        font-size: 3.5rem;
-        padding: 0;
-        margin: 0;
-        color: $headerBackGroundColor;
+        font-size: 3rem;
       }
+    }
+
+    .product-Cards-Wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -755,5 +754,119 @@ body {
     color: $buttonBackGroundColor;
     border-color: $buttonBackGroundColor;
     cursor: pointer;
+  }
+
+  /* Small devices (phones) */
+  @media (max-width: 767px) {
+    .pricing-Title {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+
+      img {
+        height: 40%;
+      }
+
+      .button-Title-Wrap {
+        text-align: start;
+        align-items: center;
+
+        h3 {
+          color: $headerBackGroundColor;
+          font-size: 1rem;
+        }
+
+        button {
+          padding: 8px 25px;
+          border-radius: 25px;
+          border-width: 1px;
+          border-style: solid;
+          background-color: transparent;
+          font-size: 1rem;
+          color: $buttonBackGroundColor;
+          border-color: $buttonBackGroundColor;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .pricing-Title {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+
+      img {
+        height: 50%;
+      }
+
+      .button-Title-Wrap {
+        text-align: start;
+        align-items: center;
+
+        h3 {
+          color: $headerBackGroundColor;
+          font-size: 2rem;
+        }
+
+        button {
+          padding: 8px 25px;
+          border-radius: 25px;
+          border-width: 1px;
+          border-style: solid;
+          background-color: transparent;
+          font-size: 1rem;
+          color: $buttonBackGroundColor;
+          border-color: $buttonBackGroundColor;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  /* Large devices (laptops/desktops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .pricing-Title {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+
+      img {
+        height: 60%;
+      }
+
+      .button-Title-Wrap {
+        text-align: start;
+        align-items: center;
+
+        h3 {
+          color: $headerBackGroundColor;
+          font-size: 3rem;
+        }
+
+        button {
+          padding: 8px 25px;
+          border-radius: 25px;
+          border-width: 1px;
+          border-style: solid;
+          background-color: transparent;
+          font-size: 1rem;
+          color: $buttonBackGroundColor;
+          border-color: $buttonBackGroundColor;
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
