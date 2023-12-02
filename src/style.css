@@ -9,6 +9,7 @@ body {
   padding: 10px;
   background-color: #eaeff3;
   margin: 0;
+  cursor: url(./images/santahand.fbeeee9f.png), auto;
 }
 
 .navbar {
@@ -910,5 +911,63 @@ body {
 }
 
 .blog {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 750px;
+  background-color: #073e72;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.blog .blog-Wrap {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 65%;
+  background-color: #ffb128;
+  border-radius: 3rem;
+}
+
+.blog .blog-Wrap .img-text-Wrap {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50%;
+}
+
+.blog .blog-Wrap .img-text-Wrap img {
+  height: 100%;
+}
+
+.blog .blog-Wrap .img-text-Wrap .button-Text-Wrap {
+  display: flex;
+  text-align: start;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.blog .blog-Wrap .img-text-Wrap .button-Text-Wrap h3 {
+  color: white;
+  max-width: 15ch;
+  font-size: 3rem;
+}
+
+.blog .blog-Wrap .img-text-Wrap .button-Text-Wrap button {
+  background-color: #073e72;
+  padding: 10px 35px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
 }
