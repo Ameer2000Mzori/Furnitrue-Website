@@ -656,6 +656,7 @@ body {
 }
 
 .pricing-Wrap .pricing-Cards .pricing-Card-Wrap {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -681,4 +682,45 @@ body {
 .pricing-Wrap .pricing-Cards .pricing-Card-Wrap .price-Title-Stars h2 {
   font-weight: 500;
   font-size: 20px;
+}
+
+.pricing-Wrap .pricing-Cards .pricing-Card-Wrap .favo-Wrap-Buttons {
+  position: absolute;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all ease-in 0.3s;
+}
+
+.pricing-Wrap .pricing-Cards .pricing-Card-Wrap .favo-Wrap-Buttons .buttons-Wrap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 15%;
+  right: 5px;
+}
+
+.pricing-Wrap .pricing-Cards .pricing-Card-Wrap .favo-Wrap-Buttons .buttons-Wrap span {
+  display: flex;
+  padding: 5px;
+  height: 25px;
+  margin: 5px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  background-color: wheat;
+  justify-content: center;
+}
+
+.pricing-Wrap .pricing-Cards .pricing-Card-Wrap .favo-Wrap-Buttons:hover {
+  cursor: pointer;
+  opacity: 1;
 }
