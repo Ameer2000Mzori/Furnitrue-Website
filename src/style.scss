@@ -1191,3 +1191,55 @@ body {
 @media (min-width: 992px) and (max-width: 1499px) {
   //
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+
+  .contact-Wrap {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 200px;
+    border-radius: 2rem;
+    overflow: hidden;
+
+    .discount-Wrap {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      height: 100%;
+      background-color: #ffb128;
+
+      .text-Discount {
+        max-width: 25ch;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 600;
+      }
+
+      .colord-Text-Discount {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $headerBackGroundColor;
+      }
+    }
+
+    .email-Wrap {
+      width: 60%;
+      background-color: #0b3954;
+      height: 100%;
+    }
+  }
+}
