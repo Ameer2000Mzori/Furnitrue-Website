@@ -553,10 +553,23 @@ body {
 }
 
 .products-Wrap .product-Cards-Wrap .product-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   font-size: 25px;
   background-color: #f7f7f7;
   padding: 1rem;
   height: 175px;
   width: 160px;
   border-radius: 15px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.products-Wrap .product-Cards-Wrap .product-Card:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(124, 123, 123));
+  background-color: #eaeff3;
 }
