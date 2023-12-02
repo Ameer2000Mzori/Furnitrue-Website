@@ -150,6 +150,10 @@ body {
       li:nth-child(1) {
         border: none;
       }
+
+      li:hover {
+        cursor: pointer;
+      }
     }
   }
 

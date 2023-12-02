@@ -144,6 +144,10 @@ body {
   border: none;
 }
 
+.navbar .under-Wrap ul li:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar .upper-Wrap {
     gap: 45px;
