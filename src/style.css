@@ -993,3 +993,93 @@ body {
   font-size: 1.3rem;
   max-width: 25ch;
 }
+
+/* Small devices (phones) */
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+    background-color: #073e72;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .blog .blog-Wrap {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 65%;
+    background-color: #ffb128;
+    border-radius: 3rem;
+  }
+
+  .blog .blog-Wrap .img-text-Wrap {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+  }
+
+  .blog .blog-Wrap .img-text-Wrap img {
+    height: 50%;
+  }
+
+  .blog .blog-Wrap .img-text-Wrap .button-Text-Wrap {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .blog .blog-Wrap .img-text-Wrap .button-Text-Wrap h3 {
+    color: white;
+    max-width: 15ch;
+    font-size: 2rem;
+  }
+
+  .blog .blog-Wrap .img-text-Wrap .button-Text-Wrap button {
+    background-color: #073e72;
+    padding: 10px 35px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .blog .blog-Wrap .blog-Text-Wrap {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 35px;
+  }
+
+  .blog .blog-Wrap .blog-Text-Wrap .blog-H3-Text {
+    display: flex;
+    font-size: 2.5rem;
+  }
+
+  .blog .blog-Wrap .blog-Text-Wrap .blog-H3-Text p {
+    font-size: 11px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
