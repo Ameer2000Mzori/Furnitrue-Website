@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  z-index: 15;
 
   .upper-Wrap {
     display: flex;
@@ -668,6 +669,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
+    z-index: 0;
 
     .pricing-Card-Wrap {
       position: relative;
