@@ -1359,3 +1359,56 @@ body {
   font-family: "Kenia", sans-serif;
   font-size: 25px;
 }
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footer .footer-P-Text {
+    font-size: 7px;
+  }
+
+  .footer .brand-Icon #footer-Icon {
+    font-size: 16px;
+  }
+
+  .footer .brand-Icon .footer-Brand-Text {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footer .footer-P-Text {
+    font-size: 8px;
+  }
+
+  .footer .brand-Icon #footer-Icon {
+    font-size: 18px;
+  }
+
+  .footer .brand-Icon .footer-Brand-Text {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1499px) {
+  .footer .footer-P-Text {
+    font-size: 10px;
+  }
+
+  .footer .brand-Icon #footer-Icon {
+    font-size: 20px;
+  }
+
+  .footer .brand-Icon .footer-Brand-Text {
+    font-size: 20px;
+  }
+}
