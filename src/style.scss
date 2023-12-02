@@ -586,4 +586,36 @@ body {
       background-color: $backGroundColor;
     }
   }
+
+  @media (max-width: 767px) {
+    .product-Cards-Wrap {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .products-Title {
+      h3 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        color: $headerBackGroundColor;
+        padding: 0;
+      }
+
+      h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5rem;
+        color: $buttonBackGroundColor;
+      }
+
+      .products-Text {
+        font-size: 3.5rem;
+        padding: 0;
+        margin: 0;
+        color: $headerBackGroundColor;
+      }
+    }
+  }
 }
