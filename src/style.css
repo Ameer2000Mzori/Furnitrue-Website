@@ -1331,3 +1331,31 @@ body {
     width: 300px;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 50px;
+  background-color: #073e72;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.footer .footer-P-Text {
+  font-size: 15px;
+}
+
+.footer .brand-Icon #footer-Icon {
+  font-size: 25px;
+  color: #f8872b;
+}
+
+.footer .brand-Icon .footer-Brand-Text {
+  font-family: "Kenia", sans-serif;
+  font-size: 25px;
+}
